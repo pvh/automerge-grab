@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "grab an automerge file from a websocket sync server and put it in this directory",
   "main": "grab.js",
+  "type": "module",
   "scripts": {
     "grab": "node grab.js"
   },
