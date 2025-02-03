@@ -1,0 +1,16 @@
+{
+  "name": "automerge-grab",
+  "version": "1.0.0",
+  "description": "grab an automerge file from a websocket sync server and put it in this directory",
+  "main": "grab.js",
+  "scripts": {
+    "grab": "node grab.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@automerge/automerge-repo": "2.0.0-alpha.22",
+    "@automerge/automerge-repo-network-websocket": "2.0.0-alpha.22"
+  }
+}
